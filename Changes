@@ -1,5 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Fixed bug where logger(category) would return default category not specified one
+  - Fixed version info
+
+0.0.2
+  - Fixed distribution issues
 
 0.001     2013-01-07 21:23:14 America/New_York
