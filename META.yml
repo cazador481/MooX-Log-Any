@@ -18,7 +18,6 @@ name: MooX-Log-Any
 requires:
   Log::Any: '0'
   Log::Any::Adapter: '0'
-  Moo::Role: '0'
 resources:
   bugtracker: https://github.com/cazador481/MooX-Log-Any/issues
   homepage: https://github.com/cazador481/MooX-Log-Any
