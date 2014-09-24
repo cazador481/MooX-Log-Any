@@ -22,7 +22,8 @@
       "runtime" : {
          "requires" : {
             "Log::Any" : "0",
-            "Log::Any::Adapter" : "0"
+            "Log::Any::Adapter" : "0",
+            "Moo::Role" : "0"
          }
       },
       "test" : {

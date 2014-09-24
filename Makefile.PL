@@ -21,7 +21,8 @@ my %WriteMakefileArgs = (
   "NAME" => "MooX::Log::Any",
   "PREREQ_PM" => {
     "Log::Any" => 0,
-    "Log::Any::Adapter" => 0
+    "Log::Any::Adapter" => 0,
+    "Moo::Role" => 0
   },
   "TEST_REQUIRES" => {
     "Log::Any::Test" => 0,
@@ -40,6 +41,7 @@ my %FallbackPrereqs = (
   "Log::Any::Adapter" => 0,
   "Log::Any::Test" => 0,
   "Moo" => 0,
+  "Moo::Role" => 0,
   "Test::More" => 0
 );
 
