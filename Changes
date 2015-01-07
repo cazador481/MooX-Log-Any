@@ -1,5 +1,7 @@
 Revision history for MooX-Log-Any
 
+0.003001  2015-01-07 10:22:23-05:00 America/New_York
+
 0.003001  2014-12-08 14:24:38-05:00 America/New_York
   - Add version info to log.pm
   - Add tests to check for version
