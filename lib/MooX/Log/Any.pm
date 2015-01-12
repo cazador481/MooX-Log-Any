@@ -7,7 +7,6 @@ local $| = 1;
 
 has 'log' => (
     is      => 'ro',
-#    isa     => 'Log::Any::Adapter::Base',
     lazy    => 1,
     default => sub { Log::Any->get_logger(); },
 );
