@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Removed Log::Any::Adapter dependency issue #9
 
 0.004000  2015-01-07 10:27:26-05:00 America/New_York
   - Changed PERL require modules to perl
