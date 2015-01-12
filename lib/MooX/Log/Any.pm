@@ -1,6 +1,6 @@
 # ABSTRACT: Role to add Log::Any
 package MooX::Log::Any;
-our $VERSION = '0.004000'; our $VERSION = '0.004000'; # VERSION 
+our $VERSION = '0.004001'; our $VERSION = '0.004001'; # VERSION 
 use Moo::Role;
 use Log::Any;
 local $| = 1;
@@ -33,7 +33,7 @@ MooX::Log::Any - Role to add Log::Any
 
 =head1 VERSION
 
-version 0.004000
+version 0.004001
 
 =head1 SYNOPSIS
 
