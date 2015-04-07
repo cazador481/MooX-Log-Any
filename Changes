@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Removed double version
+  - Added compile test
 
 0.004001  2015-01-12 16:56:22-05:00 America/New_York
   - Removed Log::Any::Adapter dependency issue #9

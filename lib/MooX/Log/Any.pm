@@ -1,6 +1,6 @@
 # ABSTRACT: Role to add Log::Any
 package MooX::Log::Any;
-# VERSION 
+#VERSION 
 use Moo::Role;
 use Log::Any;
 local $| = 1;
