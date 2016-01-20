@@ -4,11 +4,10 @@ package MooX::Log::Any;
 use Moo::Role;
 use Log::Any;
 local $| = 1;
-
 has 'log' => (
     is      => 'ro',
     lazy    => 1,
-    default => sub { Log::Any->get_logger(); },
+    default => sub { Log::Any->get_logger(category=>ref shift); },
 );
 sub logger {
 	my $self=shift;
@@ -21,7 +20,7 @@ sub logger {
 }
 1;
 
-=head1 SYNOPSIS
+=head1 SYNOPSIS;
 
     package MyApp;
     use Moo;
